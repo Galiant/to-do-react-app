@@ -1,24 +1,8 @@
 import React from 'react';
+import TodoItem from './TodoItem';
 
-function App() {
-  return (
-    <div>
-      <ul>
-        <li><input type="checkbox" />
-          <span>Bread</span>
-        </li>
-        <li><input type="checkbox" />
-          <span>Milk</span>
-        </li>
-        <li><input type="checkbox" />
-          <span>Egg</span>
-        </li>
-        <li><input type="checkbox" />
-          <span>Fruit</span>
-        </li>
-      </ul>
-    </div>
-  );
+const App = () => {
+  return <TodoItem />;
 }
 
 export default App;
