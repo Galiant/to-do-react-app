@@ -2,7 +2,14 @@ import React from 'react';
 import TodoItem from './TodoItem';
 
 const App = () => {
-  return <TodoItem />;
+  return (
+    <div className="Container">
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
+    </div>
+  );
 }
 
 export default App;

@@ -3,21 +3,10 @@ import './style.css';
 
 const TodoItem = () => {
   return (
-    <div className="Container">
-      <ul>
+    <div>
         <li className="ListItem"><input type="checkbox" className="Checkbox" />
-          <span className="Item">Bread</span>
+          <span className="Item">List Item</span>
         </li>
-        <li className="ListItem"><input type="checkbox" className="Checkbox"/>
-          <span className="Item">Milk</span>
-        </li>
-        <li className="ListItem"><input type="checkbox" className="Checkbox" />
-          <span className="Item">Egg</span>
-        </li>
-        <li className="ListItem"><input type="checkbox" className="Checkbox" />
-          <span className="Item">Fruit</span>
-        </li>
-      </ul>
     </div>
   );
 }
