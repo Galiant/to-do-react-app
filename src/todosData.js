@@ -30,3 +30,5 @@ const todosData = [
     completed: true
   }
 ]
+
+export default todosData;
