@@ -3,15 +3,23 @@ import TodoItem from './TodoItem';
 import todosData from './todosData';
 import './style.css';
 
-const App = () => {
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      todos: todosData
+    }
+  }
+  
+  render() {
+    const todoItemComponent = this.state.todos.map(todo => <TodoItem key={todo.id} todo={todo} />);
 
-  const todoItemComponent = todosData.map(todo => <TodoItem key={todo.id} todo={todo} />);
-
-  return (
-    <div className="Container">
-      {todoItemComponent}
-    </div>
-  );
+    return (
+      <div className="Container">
+        {todoItemComponent}
+      </div>
+    );
+  }  
 }
 
 export default App;
