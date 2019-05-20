@@ -9,7 +9,7 @@ const TodoItem = (props) => {
           type="checkbox"
           className="Checkbox"
           checked={props.todo.completed}
-          onChange={() => console.log("Changed!")}
+          onChange={() => props.handleChange(props.todo.id)}
         />
           <span className="Item">{props.todo.text}</span>
       </li>
