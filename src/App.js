@@ -4,12 +4,12 @@ import todosData from './todosData';
 import './style.css';
 
 const App = () => {
+
+  const todoItemComponent = todosData.map(todo => <TodoItem key={todo.id} todo={todo} />);
+
   return (
     <div className="Container">
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
+      {todoItemComponent}
     </div>
   );
 }
