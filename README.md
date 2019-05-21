@@ -22,3 +22,17 @@ git clone https://github.com/Galiant/to-do-react-app.git
 ```
 cd to-do-react-app
 ```
+
+3.  Install dependencies using`npm` command line tool:
+
+```
+npm install
+```
+
+4.  Run the application, again using `npm`:
+
+```
+npm start
+```
+
+This will open a new browser tab/window with the application running.
