@@ -6,7 +6,7 @@ Simple ToDo React App
 
 - React
 - JSX
-- JavaScript (ES6) - Module Pattern
+- JavaScript (ES6)
 - CSS
 
 ## Run on local machine
